@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+nav{
+    background-color: rgb(116, 116, 116);
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.passx{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    font-family: "Poppins", sans-serif;
+}
+nav ul li{
+    font-size: 22px;
+    list-style: none;
+}
+.container{
+    margin: 20px auto;
+    max-width: 80vw;
+}
+.passMan{
+    margin: 20px;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.Submitbtn{
+    height: 30px;
+    width: 80px;
+    padding: 3px 9px;
+    border-radius: 3px;
+    border-color: transparent;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+}
+form{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
