@@ -38,6 +38,13 @@ nav ul li{
     font-size: larger;
 }
 
+table th,td{
+    padding: 3px 10px;
+}
+tr{
+    height: 50px;
+}
+
 .Submitbtn{
     height: 30px;
     width: 80px;
@@ -55,4 +62,22 @@ form{
     flex-direction: column;
     gap: 10px;
     
+}
+#delete{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+#delete:hover{
+    cursor: pointer;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+.alert{
+    display: none;
 }
